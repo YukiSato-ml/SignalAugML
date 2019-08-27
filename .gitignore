@@ -1,0 +1,17 @@
+#除外ファイルを指定
+#あらゆる階層の__pycache__を除外
+**/__pycache__/*
+
+#epoch log
+**/*epoch_log.txt
+
+#シェルを含まない
+**/*.sh
+
+#not include dataset compornents
+dataset/data/**/*.wav
+dataset/data/**/*.txt
+dataset/pickles/*.pkl
+
+
+!.gitkeep
